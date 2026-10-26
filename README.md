@@ -6,6 +6,9 @@ order-book snapshots, using the data of the Kaggle competition
 The competition is closed; this project evaluates models with local
 cross-validation and the official metric (RMSPE), not on the leaderboard.
 
+Kaggle notebook (same pipeline, with feature importance and plots):
+[kaggle.com/code/chwalid/optiver-realized-volatility-lightgbm](https://www.kaggle.com/code/chwalid/optiver-realized-volatility-lightgbm)
+
 ## Approach
 1. **Realized volatility** from the weighted average price (WAP):
    `RV = sqrt(sum r_t^2)`, with `r_t` the log-returns of the WAP.
